@@ -27,29 +27,62 @@ github_username:  wbrazelton
 
 # Build settings
 encoding: utf-8
-plugins:
-  - jekyll-feed
-bootswatch-theme: lux
+markdown: kramdown
+permalink: /:categories/:title/
+future: true
 sass:
   sass_dir: css
 
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - "*.branches"
+  - "*.class"
+  - "*.cpp"
+  - "*.csv"
+  - "*.fasta"
+  - "*.gz"
+  - "*.h"
+  - "*.hh"
+  - "*.ipynb"
+  - "*.jar"
+  - "*.java"
+  - "*.kml"
+  - "*.log"
+  - "*.mcc"
+  - "*.nb"
+  - "*.newick"
+  - "*.nex"
+  - "*.py"
+  - "*.R"
+  - "*.rb"
+  - "*.Rmd"
+  - "*.tiff"
+  - "*.tips"
+  - "*.trees"
+  - "*.tsv"
+  - "*.txt"
+  - "*.xml"
+  - "*.zip"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "projects/nextflu/auspice/index.html"
+  - "projects/nextflu/auspice/css/*"
+  - "projects/nextflu/auspice/h3n2/*"
+  - "projects/nextflu/auspice/h1n1pdm/*"
+  - "projects/nextflu/auspice/vic/*"
+  - "projects/nextflu/auspice/yam/*"
+  - "projects/nextflu/auspice/zika/*"
+  - "projects/nextflu/auspice/zibra/*"
+  - "projects/nextflu/auspice/muttree/*"
+  - "projects/nextflu/auspice/reports/*"
+  - "projects/nextflu/auspice/js/*"
+  - "projects/nextflu/auspice/cdc/*"
+  - "projects/nextflu/auspice/gisaid/*"
+  - "projects/auspice/src/*"
+  - "projects/siv-cst/beast/main/empiricalTrees/xml/*"
+  - "projects/siv-cst/beast/supplement/discreteTraits/xml/*"
+  - "projects/siv-cst/beast/supplement/empiricalTrees/xml/*"
+  - "projects/h3n2-reassortment/auspice/*"
+  - "projects/dengue-antigenic-dynamics/titer_model/seasia_output/*"
+  - "projects/h5n1-cambodia/data/tree-jsons/*"
+  - "projects/zika-colombia/supplemental-analysis/rarefaction-curves/*"
