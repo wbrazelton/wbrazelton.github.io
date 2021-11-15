@@ -1,18 +1,18 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<img class="pull-right" src="/images/me2_cropped_small.png" style="padding: 20px">  
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+## About
+I am an Associate Professor in the School of Biological Sciences at the University of Utah in Salt Lake City, Utah, USA. 
+[Here is my faculty profile page.](https://www.biology.utah.edu/faculty/william-brazelton/)
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+## Contact
+* email: wbrazelton@gmail.com
+* twitter: [@wbrazelton](https://twitter.com/wbrazelton)
 
-
-[jekyll-organization]: https://github.com/jekyll
+## Credits
+The design of this website was blatantly copied from the Bedford Lab: [https://bedford.io/](https://bedford.io/)

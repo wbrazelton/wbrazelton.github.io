@@ -18,6 +18,10 @@ gem "minima", "~> 2.5"
 
 gem "github-pages", "~> 219", group: :jekyll_plugins
 
+# Bootstrap - do I need these if I alerady installed via npm?
+#gem 'bootstrap', '~> 5.1.3'
+#gem "bootswatch", github: "thomaspark/bootswatch"
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"

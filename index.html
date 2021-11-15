@@ -1,0 +1,58 @@
+---
+layout: default
+title: William J. Brazelton
+categories:
+ - home
+---
+
+<div class="row">
+	<div class="col-lg-12">
+		<object class="pull-left biglogo" data="/images/sulis_20180916180909_smaller2_sq.png" type="image/png"></object>
+		<div class="bigtitle logobox">
+			William J. Brazelton
+		</div>
+	</div>
+</div>
+
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-lg-12">
+		<div class="smallhead">
+      <p>
+        I am a scientist who studies natural microbial communities, specializing in metagenomic approaches. 
+        Current and past projects are listed below. All data and software are open-source and publicly available. 
+        I love to collaborate, so please reach out if you have new project ideas.  
+      </p>
+		</div>
+	</div>
+</div>
+
+<div class="bigspacer"></div>
+
+<div class="row">
+	{% for project in site.data.projects limit:4 %}
+	<div class="col-lg-3 reduced-gutter">
+		<div class="pad-left">
+			<div class="note">
+				<i class="fa fa-edit fa-fw"></i>
+				<a class="off" href="{{ project.url }}">
+				{{ project.title }} - {{ project.description }}
+				</a>
+			</div>
+			<div class="smallspacer"></div>
+			<div class="smallnote">
+				Updated
+				<a class="off" href="{{ project.commits.first.url }}">
+				{{ project.commits.first.date | date: "%-d %b %Y" }}
+				</a>
+				by
+				<a class="off" href="{{ project.commits.first.author_url }}">
+				{{ project.commits.first.author_login }}
+				</a>
+			</div>
+			<div class="bigspacer"></div>
+		</div>
+	</div>
+	{% endfor %}
+</div>
