@@ -4,6 +4,7 @@ environment*
 # Projects
 alldata/
 !alldata/index.html
+!_site/alldata/
 
 # Jekyll build process
 .jekyll-cache
