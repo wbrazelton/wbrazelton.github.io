@@ -2,9 +2,9 @@
 environment*
 
 # Projects
-alldata/
-!alldata/index.html
-!_site/alldata/
+projects/
+!projects/index.html
+!_site/projects/
 
 # Jekyll build process
 .jekyll-cache
