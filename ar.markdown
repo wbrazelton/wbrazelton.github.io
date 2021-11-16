@@ -20,4 +20,4 @@ We applied our metagenomic tools in a survey of antibiotic resistance genes pres
 We also found that the resistance genes are more likely to be associated with mobile genetic elements immediately downstream from wastewater treatment facilities.
 
 ## Publications and Data
-[Our first publication on this topic, by Christopher Thornton et al., and associated data are here.](alldata/Thornton_2020/)
+[Our first publication on this topic, by Christopher Thornton et al., and associated data are here.](/alldata/Thornton_2020/)
