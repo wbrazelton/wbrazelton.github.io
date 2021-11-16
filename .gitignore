@@ -1,9 +1,6 @@
 # Environment files
 environment*
 
-# Compiled site
-_site/
-
 # Projects
 alldata/
 !alldata/index.html
