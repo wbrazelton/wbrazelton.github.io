@@ -33,8 +33,22 @@ future: true
 sass:
   sass_dir: css
 
-
+# remember to include/exclude new projects below when added here
+projects:
+  - Brazelton-Lab/lab_scripts
+  - Brazelton-Lab/bio_utils
+  - Brazelton-Lab/protocols    
+  - Brazelton-Lab/seq-annot
+  - Brazelton-Lab/seq-qc
+  - Brazelton-Lab/McGonigle-BSF-Metagenome-2021
+  - Brazelton-Lab/McGonigle-2019-LCY
+  - Brazelton-Lab/Atlantis-Massif-2015
+  - Brazelton-Lab/Thornton_2020
+  - Brazelton-Lab/oak
+  - Brazelton-Lab/Dangerfield-2017
+      
 exclude:
+  - node_modules
   - "*.branches"
   - "*.class"
   - "*.cpp"
@@ -65,24 +79,27 @@ exclude:
   - "*.zip"
   - "Gemfile"
   - "Gemfile.lock"
-  - "projects/nextflu/auspice/index.html"
-  - "projects/nextflu/auspice/css/*"
-  - "projects/nextflu/auspice/h3n2/*"
-  - "projects/nextflu/auspice/h1n1pdm/*"
-  - "projects/nextflu/auspice/vic/*"
-  - "projects/nextflu/auspice/yam/*"
-  - "projects/nextflu/auspice/zika/*"
-  - "projects/nextflu/auspice/zibra/*"
-  - "projects/nextflu/auspice/muttree/*"
-  - "projects/nextflu/auspice/reports/*"
-  - "projects/nextflu/auspice/js/*"
-  - "projects/nextflu/auspice/cdc/*"
-  - "projects/nextflu/auspice/gisaid/*"
-  - "projects/auspice/src/*"
-  - "projects/siv-cst/beast/main/empiricalTrees/xml/*"
-  - "projects/siv-cst/beast/supplement/discreteTraits/xml/*"
-  - "projects/siv-cst/beast/supplement/empiricalTrees/xml/*"
-  - "projects/h3n2-reassortment/auspice/*"
-  - "projects/dengue-antigenic-dynamics/titer_model/seasia_output/*"
-  - "projects/h5n1-cambodia/data/tree-jsons/*"
-  - "projects/zika-colombia/supplemental-analysis/rarefaction-curves/*"
+#  - alldata/lab_scripts/
+#  - "alldata/bio_utils"
+#  - "alldata/protocols"
+#  - "alldata/seq-annot"
+#  - "alldata/seq-qc"
+#  - "alldata/McGonigle-BSF-Metagenome-2021"
+#  - "alldata/McGonigle-2019-LCY"
+#  - "alldata/Atlantis-Massif-2015"
+#  - "alldata/Thornton_2020"
+#  - "alldata/oak"
+#  - "alldata/Dangerfield-2017"
+#  
+#include:
+#  - alldata/lab_scripts/index.md
+#  - "alldata/bio_utils/index.md"
+#  - "alldata/protocols/index.md"
+#  - "alldata/seq-annot/index.md"
+#  - "alldata/seq-qc/index.md"
+#  - "alldata/McGonigle-BSF-Metagenome-2021/index.md"
+#  - "alldata/McGonigle-2019-LCY/index.md"
+#  - "alldata/Atlantis-Massif-2015/index.md"
+#  - "alldata/Thornton_2020/index.md"
+#  - "alldata/oak/index.md"
+#  - "alldata/Dangerfield-2017/index.md"
