@@ -61,7 +61,7 @@ Additional reading:
 * [Deep-Ocean Stewardship Initiative](http://dosi-project.org/)
 
 ## Publications and Data
-* [Julia McGonigle's 2020 paper "Genomic Evidence for Formate Metabolism by Chloroflexi as the Key to Unlocking Deep Carbon in Lost City Microbial Ecosystems" and associated data](/alldata/McGonigle-2019-LCY/)
+* [Julia McGonigle's 2020 paper "Genomic Evidence for Formate Metabolism by Chloroflexi as the Key to Unlocking Deep Carbon in Lost City Microbial Ecosystems" and associated data](alldata/McGonigle-2019-LCY/)
 
 ## Videos
 [Check out our Lost City Vimeo Album](https://vimeo.com/album/5459980)
