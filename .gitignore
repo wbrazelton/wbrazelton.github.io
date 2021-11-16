@@ -2,7 +2,7 @@
 environment*
 
 # Projects
-projects/
+#projects/
 !projects/index.html
 !_site/projects/
 
