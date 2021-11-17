@@ -1,10 +1,13 @@
 # Environment files
 environment*
 
+# locally built site
+_site/
+
 # Projects
 projects/
 !projects/index.html
-!_site/projects/
+!projects/protocols/index.md
 
 # Jekyll build process
 .jekyll-cache
