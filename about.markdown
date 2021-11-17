@@ -2,6 +2,8 @@
 layout: default
 title: About
 permalink: /about/
+categories:
+  - about
 ---
 
 <img class="pull-right" src="/images/me2_cropped_small.png" style="padding: 20px">  

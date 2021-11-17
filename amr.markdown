@@ -2,6 +2,8 @@
 layout: default
 title: Atlantis Massif
 permalink: /amr/
+categories:
+  - research
 ---
 
 <img class="float-right" src="/images/cows_small.png" style="padding: 20px">  

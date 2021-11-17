@@ -2,6 +2,8 @@
 layout: default
 title: Antibiotic Resistance
 permalink: /ar/
+categories:
+  - research
 ---
 
 <div class="float-right">

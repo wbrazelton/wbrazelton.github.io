@@ -2,12 +2,14 @@
 layout: default
 title: Lost City Hydrothermal Field
 permalink: /lostcity/
+categories:
+  - research
 ---
 
 <div class="float-right">
 <figure class="figure">
   <img src="/images/sulis_20180916180909_smaller2_sq.png" class="figure-img img-fluid rounded" alt="lost city chimney">
-  <figcaption class="figure-caption">Warm hydrothermal fluids venting from a Lost City chimney. Photo credit: Chief Scientist Susan Lang / NSF / ROV Jason / Woods Hole Oceanographic Institution" </figcaption>
+  <figcaption class="figure-caption">Warm hydrothermal fluids venting from a Lost City chimney. Photo credit: Chief Scientist Susan Lang / NSF / ROV Jason / Woods Hole Oceanographic Institution </figcaption>
 </figure>
 </div>
 
