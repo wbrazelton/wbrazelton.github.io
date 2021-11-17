@@ -3,7 +3,7 @@ layout: project
 title: protocols/
 project: protocols
 repo: Brazelton-Lab/protocols
-permalink: /:path/:basename:output_ext
+#permalink: /:path/:basename:output_ext
 ---
 
 # protocols
