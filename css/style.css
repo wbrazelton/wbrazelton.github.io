@@ -18,7 +18,7 @@ h6, .h6 { font-size: 1rem; }
 /* ~12px */
 figure { display: table; text-align: center; font-style: italic; border: none; margin: 2em; padding: 0.5em; }
 
-figcaption { display: run-in; width: 300px; text-align: center; }
+figcaption { display: run-in; text-align: center; }
 
 .reduced-gutter.row { margin-right: -10px; margin-left: -10px; }
 
